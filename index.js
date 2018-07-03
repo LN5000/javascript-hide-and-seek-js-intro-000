@@ -42,7 +42,7 @@ function deepestChild() {
 
 // ----
 
-document.addEventListener("keydown", keyDownTextField, true);
+document.addEventListener("keydown", keyDownTextField);
 
 function keyDownTextField(e) {
 var keyCode = e.keyCode;
