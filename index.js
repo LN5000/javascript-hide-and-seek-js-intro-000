@@ -70,6 +70,6 @@ function onKeyDownHandler(e) {
   }
 }
 
-document.addEventListener('keydown', onKeyDownHandler {
+document.getElementById("app").addEventListener('keydown', onKeyDownHandler {
   alert('I was clicked!')
 })
