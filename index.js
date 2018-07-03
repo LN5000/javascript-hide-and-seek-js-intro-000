@@ -42,9 +42,7 @@ function deepestChild() {
 
 // ----
 
-const main = document.getElementById('mocha')
+const main = document.getElementById('app')
 main.addEventListener('click', function(event) {
   alert('I was clicked!')
 })
-
-
